@@ -1,0 +1,37 @@
+
+body{
+    background-color: rgb(42, 42, 42);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.pokemons-container{
+    list-style: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap: .5rem;
+}
+
+.pokemon{
+    padding: .25rem ;
+    border: 1px solid white;
+    color: wheat;
+}
+
+.hide{
+    display:none;
+}
